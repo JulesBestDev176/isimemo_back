@@ -2938,3 +2938,6 @@ app.listen(PORT, () => {
   console.log(`   🗄️ MongoDB: ${MONGODB_URI}`);
   console.log('═══════════════════════════════════════════════════════════════');
 });
+
+// Export for Vercel
+module.exports = app;
